@@ -1,0 +1,29 @@
+{
+  "name": "grunt-phpspec",
+  "description": "Grunt plugin for running PHPSpecs.",
+  "homepage": "https://github.com/jrcryer/grunt-phpspec",
+  "author": {
+    "name": "James Cryer",
+    "email": "chat@jamescryer.com",
+    "url": "http://www.jamescryer.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jrcryer/grunt-phpspec.git"
+  },
+  "contributors": [],
+  "version": "0.0.1",
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "0.1.1rc6",
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin",
+    "phpspecs",
+    "phpspec"
+  ]
+}
