@@ -1,6 +1,6 @@
 #
 # grunt-phpspec
-# http://www.jamescryer.com/grunt-rcukes
+# http://www.jamescryer.com/grunt-phpspec
 #
 # Copyright (c) 2013 James Cryer
 # http://www.jamescryer.com
