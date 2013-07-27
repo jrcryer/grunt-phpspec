@@ -1,4 +1,4 @@
-# grunt-phpspec
+# grunt-phpspec [![Build Status](https://travis-ci.org/jrcryer/grunt-phpspec.png?branch=master)](https://travis-ci.org/jrcryer/grunt-phpspec)
 
 > Grunt plugin for running PHPSpec.
 
