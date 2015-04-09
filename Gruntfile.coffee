@@ -15,6 +15,7 @@ module.exports = (grunt) ->
         specs: 'spec/'
       options:
         prefix: 'bin/'
+        colors: true
 
   grunt.loadTasks 'tasks'
 
