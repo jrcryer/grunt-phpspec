@@ -36,7 +36,8 @@ phpspec: {
         specs: 'specs/'
     },
     options: {
-        prefix: 'bin/'
+        prefix: 'bin/',
+        colors: true
     }
 }
 ```

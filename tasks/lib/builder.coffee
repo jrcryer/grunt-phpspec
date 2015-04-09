@@ -24,7 +24,7 @@ exports.init = (grunt) ->
   #
   #
   command = ->
-    'phpspec run'
+    'phpspec run --' + (if colors() then 'ansi' else 'no-ansi')
 
   #
   # Returns the prefix to the cucumber command
@@ -33,6 +33,14 @@ exports.init = (grunt) ->
   prefix = ->
     return config.prefix unless config.prefix == undefined
     ''
+
+  #
+  # Returns the colors option
+  #
+  #
+  colors = ->
+    return config.colors unless colors == undefined
+    false
 
   #
   # Returns the directory that cucmber features will be run from
